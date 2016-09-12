@@ -3,7 +3,7 @@
 #import <UIKit/UIKit.h>
 #endif
 
-NSString *const JSDefaultSerialQueueName;
+extern NSString *const JSDefaultSerialQueueName;
 
 @interface JSGCDDispatcher : NSObject {
   @protected  
